@@ -1,0 +1,1 @@
+﻿Este documento es un resumen de un curso de Inteligencia Artificial. Hablamos de aprendizaje supervisado, redes neuronales y visión por computador.
