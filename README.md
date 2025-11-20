@@ -22,6 +22,7 @@ Desde la raíz del proyecto:
 ```bash
 docker build -t ai-agent-backend ./backend
 docker run --rm -p 8000:8000 ai-agent-backend
+```
 
 ## 🚀 Ejecutar la UI (Gradio)
 
