@@ -22,3 +22,14 @@ Desde la raíz del proyecto:
 ```bash
 docker build -t ai-agent-backend ./backend
 docker run --rm -p 8000:8000 ai-agent-backend
+
+## 🚀 Ejecutar la UI (Gradio)
+
+Con el backend ya corriendo en `http://localhost:8000`:
+
+```bash
+# Instalar dependencias en tu máquina
+py -m pip install -r backend/requirements.txt
+
+# Lanzar la UI
+python app.py
